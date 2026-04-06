@@ -1,6 +1,7 @@
 
 ## Instale as ferramentas necessárias
 `brew install nuclei`
+
 `brew install subfinder`
 
 ## Instale as dependências
