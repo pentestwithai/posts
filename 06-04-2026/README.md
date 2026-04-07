@@ -1,6 +1,8 @@
 # Tipo MCP com Gemini
 
-Semana passada nós comentamos sobre servidores de Model Context Protocol ou MCP em nossos stories, então resolvemos fazer um post básico desse tipo de estrutura, mas diferente. A simplicidade do código abaixo mostra como é possível aplicar o conceito de MCP, usando SERVIDOR → HOST → CLIENT de forma bem dinâmica e sem complicações. Mas antes de entrar no código, vale entender a diferença entre usar o conceito de MCP de forma informal — como fizemos aqui — e implementar o MCP de forma formal e padronizada. No nosso exemplo, tudo roda dentro de um único processo Python. As ferramentas são funções locais, o schema é inferido automaticamente pelo SDK do Gemini, e a comunicação acontece internamente. 
+Semana passada nós comentamos sobre servidores de Model Context Protocol ou MCP em nossos stories, então resolvemos fazer um post básico desse tipo de estrutura, mas diferente. 
+
+A simplicidade do código abaixo mostra como é possível aplicar o conceito de MCP, usando SERVIDOR → HOST → CLIENT de forma bem dinâmica e sem complicações. Mas antes de entrar no código, vale entender a diferença entre usar o conceito de MCP de forma informal — como fizemos aqui — e implementar o MCP de forma formal e padronizada. No nosso exemplo, tudo roda dentro de um único processo Python. As ferramentas são funções locais, o schema é inferido automaticamente pelo SDK do Gemini, e a comunicação acontece internamente. 
 
 É rápido, funciona, e já aplica a lógica de Server → Host → Client na prática.
 
