@@ -24,3 +24,5 @@ Acesse https://aistudio.google.com/api-keys e gera sua chave através de sua con
 
 ## Execute o script
 `python mcp-test.py`
+
+[Link](https://www.instagram.com/p/DWyk3I7EcDr/?img_index=1)
